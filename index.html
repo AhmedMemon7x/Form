@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="head">
+      <img src="/logo_saylaniwelfare.22bf709605809177256c.png" alt="logo" />
+    </div>
+    <div class="head"><h1>Saylani Online Academy</h1></div>
+    <div class="form">
+      <form action="/index2.html">
+        <table cellpadding="14">
+          <div class="heading"><h2>Student Registration Form</h2></div>
+          <tbody>
+            <tr>
+              <td><label for="Name">Name:</label></td>
+              <td>
+                <input type="text" placeholder="Name" maxlength="30" required size="45"/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="father name">FatherName:</label></td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Father Name"
+                  maxlength="30"
+                  required
+                  size="45"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  name="password"
+                  id="pass"
+                  required
+                  minlength="8"
+                  placeholder="*********"
+                  size="45"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address">Address:</label></td>
+              <td>
+                <textarea
+                  name="address"
+                  id="address"
+                  cols="41"
+                  rows="5"
+                  placeholder="Address"
+                  required
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender:</label></td>
+              <td>
+                <input class="cursor" type="radio" name="gender" id="male" required />Male
+                <input class="cursor" type="radio" name="gender" id="female" required />Female
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Language">Language:</label></td>
+              <td >
+                <input class="cursor" type="checkbox" name="Language" id="urdu" required/>Urdu
+                <input class="cursor" type="checkbox" name="Language" id="english" />English
+                <input class="cursor" type="checkbox" name="Language" id="arabic" />Arabic
+                <input class="cursor" type="checkbox" name="Language" id="chinese" />Chinese
+              </td>
+            </tr>
+            <tr>
+              <td><label for="date of birth">DOB:</label></td>
+              <td>
+                <input type="date" name="date of birth" id="dob" required style="width: 120px;"/>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email id">Email ID:</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email ID"
+                  required
+                  size="45"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="mobile no">Mobile Number:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  name="Mobile numder"
+                  id="mobile numder"
+                  required
+                  placeholder="Mobile Number"
+                  maxlength="15"
+                  size="30"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="city">City:</label></td>
+              <td>
+                <select class="cursor" name="city" id="City" required style="width: 120px;">
+                  <option  disabled>Select Your City</option>
+                  <option  value="Hyderabad">Hyderabad</option>
+                  <option  value="Karachi">Karachi</option>
+                  <option  value="Dadu">Dadu</option>
+                  <option  value="Nawabshah">Nawabshah</option>
+                  <option  value="Larkana">Larkana</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Hobbies">Hobbies:</label></td>
+              <td>
+                <select class="cursor" name="Hobbies" id="Hobbies" size="4" multiple required style="width: 80px;">
+                  <option class="cursor" value="Criket">Criket</option>
+                  <option class="cursor" value="Football">Football</option>
+                  <option class="cursor" value="Hokey">Hockey</option>
+                  <option class="cursor" value="Tennis">Tennis</option>
+                  <option class="cursor" value="Golf">Golf</option>
+                  <option class="cursor" value="Chess">Chess</option>
+                  <option class="cursor" value="other">Other</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="file">Picture Upload:</label>
+              </td>
+              <td><input type="file" name="pic" id="pic" accept="image/*"/></td>
+              <td><input type="button" value="Upload" /></td>
+            </tr>
+             <tr>
+              <td></td>
+              <td><input class="submit" type="submit" value="Submit form"  /></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
